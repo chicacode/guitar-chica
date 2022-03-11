@@ -6,7 +6,7 @@ export default function Home() {
     <Layout
       page='Home'
     >
-      <h1 className='heading'>Pet Care</h1>
+      <h1 className='heading'>Pet Store</h1>
     </Layout>
   )
 }

@@ -13,8 +13,9 @@ const Header = () => {
         <nav className={styles.navigation}>
             <Link href={'/'}>Home</Link>
             <Link href={'/about'}>About</Link>
-            <Link href={'/blog'}>Blog</Link>
             <Link href={'/store'}>Store</Link>
+            <Link href={'/brands'}>Brands</Link>
+            <Link href={'/services'}>Services</Link>
         </nav>
         </div>
     </header>
