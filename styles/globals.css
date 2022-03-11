@@ -28,7 +28,11 @@ img {
   max-width: 120rem;
   margin: 0 auto;
   width: 95%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
+
 [class*="heading"] {
   font-size: 4rem;
   text-align: center;

@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Header from './Header'
 
 const Layout = ({ children, page }) => {
-    console.log('que es children', children)
     return (
         <div>
              <Head>
