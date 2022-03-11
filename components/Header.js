@@ -7,9 +7,11 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className='container'>
-        <div className='header-nav-container'>
+        <div className={styles.headernav}>
           <div>
-            <Image src='/img/logo.png' alt='logo' width={'100px'} height={'100px'} />
+            <Link href={'/'} passHref>
+            <Image src='/img/logo.png' alt='img-logo' width={'100px'} height={'100px'} />
+            </Link>
           </div>
           <nav className={styles.navigation}>
             <Link href={'/'}>Home</Link>
@@ -22,7 +24,7 @@ const Header = () => {
         </div>
         <div>
           <picture>
-            <Image src='/img/dog-2.png' alt='dog store image' width={'200px'} height={'200px'} className='image-index' />
+            <Image src='/img/dog-2.png' alt='dog store image' width={200} height={200} className='image-index' />
           </picture>
         </div>
 

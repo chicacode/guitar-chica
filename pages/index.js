@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import Image from 'next/image';
+
 
 export default function Home() {
   return (
@@ -8,9 +8,8 @@ export default function Home() {
     >
       <h1 className='heading'>Pet Store</h1>
       <section className='container'>
-    Information
+        Information
       </section>
-
     </Layout>
   )
 }
