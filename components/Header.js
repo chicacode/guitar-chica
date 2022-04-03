@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <div>
           <picture>
-            <Image src='/img/dog-2.png' alt='dog store image' width={200} height={200} className='image-index' />
+            <Image src='/img/dog-4.png' alt='dog store image' width={150} height={150} className='image-index' />
           </picture>
         </div>
 
