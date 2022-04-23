@@ -39,3 +39,11 @@ body {
   color: var(--blue);
 }
 
+[class*="main-blog"]{
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+
+}
