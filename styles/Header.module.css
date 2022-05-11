@@ -9,7 +9,7 @@
 }
 
 .navigation a{
-    color: #2563eb;
+    color: var(--sky);
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;

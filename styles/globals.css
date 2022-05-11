@@ -1,11 +1,15 @@
 :root {
-  --primary: #dc2626;
-  --negro: #262626;
-  --blanco: #fff;
+  --primary: #e5383b;
+  --black: #262626;
+  --white: #fff;
   --fuente-principal: "Outfit", sans-serif;
   --secondary: #fef2f2;
   --accent: #f87171;
   --blue: #2563eb;
+  --turquese: #06d6a0;
+  --yellow: #ffd166;
+  --fucsia: #ef476f;
+  --sky: #00bbf9
 }
 html {
   font-size: 62.5%;
@@ -19,7 +23,7 @@ html {
 body {
   font-size: 2rem;
   font-family: var(--fuente-principal);
-  color: var(--primary);
+  color: var(--fucsia);
   line-height: 1.5;
 }
 
@@ -27,23 +31,12 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 [class*="heading"] {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
-  color: var(--blue);
+  color: var(--sky);
 }
 
-[class*="main-blog"]{
-  color: #262626;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1.5rem;
-
-}

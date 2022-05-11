@@ -22,11 +22,11 @@ const Header = () => {
             <Link href={'/blog'}>Blog</Link>
           </nav>
         </div>
-        <div>
+        {/* <div>
           <picture>
             <Image src='/img/dog-4.png' alt='dog store image' width={150} height={150} className='image-index' />
           </picture>
-        </div>
+        </div> */}
 
       </div>
     </header>
