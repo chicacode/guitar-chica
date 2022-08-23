@@ -32,8 +32,6 @@ export async function getStaticProps() {
     const url = 'http://localhost:1337/blogs';
     const response = await fetch(url);
     const posts = await response.json();
-
-    console.log(posts);
     return {
         props: {
             posts
